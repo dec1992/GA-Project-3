@@ -2,7 +2,7 @@
 # Project #3: A MERN Stack App
 ## Overview
 
-We were asked to build a MERN stack app, in groups of 4 students and 7 days.
+We were asked to build a MERN stack app, in groups of 4 students and 7 days. test
 
 ### Technical Requirements
 
