@@ -587,7 +587,7 @@ return Axios.post('/api/locations', data, {
 
 ### - The Backend
 
-The backend conatined a router file to handle the different requests from the frontend using functions imported from controller files. An example route from the router file:
+The backend contained a router file to handle the different requests from the frontend using functions imported from controller files. An example route from the router file:
 
 ```js
 router.route('/locations/:locationId/comments/:commentId')
@@ -672,9 +672,8 @@ This function ensures that the user is currently logged in to an account with va
 ## Lessons learned
 - Be realistic from the stage of imagining all the functionalities and features of your application to the actual implementation of the MVP. Focus on prioritising the most important features, as any extra functionality will be able to be introduce in due course.
 - Communication between team members is key for the success of the project, don't be afraid of asking for help when in doubt, as the team members might be also unaware and interested in knowing the solution.
-- 
+
 ## Contributors
 - Baltasar Romero
-- Dec Burns
 - Florian Wilisch
 - James Bolton
