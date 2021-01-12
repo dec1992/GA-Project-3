@@ -12,7 +12,7 @@ This task involved working together to develop a Full Stack MERN application usi
 
 When consulting as part of a team, it was decided to design an app to help people wanting to lead a more environmentally friendly lifestyle. What we came up with was a location based app allowing users to find green business near their location and create an account in order to review or add businesses.
 
-Find it here! --> [Green World 🤖](https://powerful-tor-10492.herokuapp.com/)
+Find it here! --> [Green World 🤖](https://greenworld-p3.herokuapp.com/)
 
 
 ### Technical Requirements
@@ -664,6 +664,12 @@ This function ensures that the user is currently logged in to an account with va
 - The Map could cluster locations when there are too many within the viewport
 - Seeding more locations to the databased, not only London.
 
+## Wins
+
+- Creating a series of loops in the seed file in order to go through each location fetched from the Yelp API and passing the correct information to the postcode API in order to add the correct coordinates to each location in our database.
+
+- Implementing a Use My Location feature in order to automatically centre the map page on the user's location on loading.
+
 ## Challenges
 * To retrieve the array of categories from the edited location and match the selected ones from the categoriesObject, so they can be displayed as the initial value in the React Select component. This issue was resolved by filtering all the categories with the original categories, with the resulted array, it was then passed on as a prop to the form component.
 
@@ -673,6 +679,11 @@ This function ensures that the user is currently logged in to an account with va
 - Be realistic from the stage of imagining all the functionalities and features of your application to the actual implementation of the MVP. Focus on prioritising the most important features, as any extra functionality will be able to be introduce in due course.
 - Communication between team members is key for the success of the project, don't be afraid of asking for help when in doubt, as the team members might be also unaware and interested in knowing the solution.
 
+## Screenshots
+
+<img src="./Screenshots/map.png" width="400" />
+<img src="./Screenshots/location.png" width="400" />
+<img src="./Screenshots/list.png" width="400" />
 ## Contributors
 - Baltasar Romero
 - Florian Wilisch
